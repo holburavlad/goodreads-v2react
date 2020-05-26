@@ -1,0 +1,61 @@
+{
+  "name": "@goodreads-v2/component-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Vlad Holbura <Vlad.Holbura@endava.com>",
+  "homepage": "https://github.com/adaschevici/goodreads-v2/tree/master/packages/component-library#readme",
+  "license": "ISC",
+  "main": "lib/component.bundle.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holburavlad/goodreads-v2react.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "rollup -c"
+  },
+  "bugs": {
+    "url": "https://github.com/holburavlad/goodreads-v2react/issues"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-terser": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-console": "^1.2.1",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-storyshots": "^5.3.19",
+    "@storybook/addon-viewport": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/cli": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-jest": "25",
+    "babel-loader": "^8.1.0",
+    "jest": "25",
+    "rollup": "^2.10.9",
+    "rollup-plugin-copy": "^3.3.0"
+  }
+}
