@@ -2,7 +2,7 @@
   "name": "@goodreads-v2/component-library",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "Vlad Holbura <Vlad.Holbura@endava.com>",
+  "author": "Vlad Holbura <Vlad.Holbura92@gmail.com>",
   "homepage": "https://github.com/adaschevici/goodreads-v2/tree/master/packages/component-library#readme",
   "license": "ISC",
   "main": "lib/component.bundle.js",
